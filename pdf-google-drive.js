@@ -18,7 +18,7 @@ jspdf.onload = function () {
         pdf.addImage(imgData, 'JPEG', 0, 0);
         pdf.addPage();
     }
-    console.log(document.title.split('.pdf - '))
+    // console.log(document.title.split('.pdf - '))
     pdf.save(document.title.split('.pdf - ')[0]+".pdf");
 };
 
